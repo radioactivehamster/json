@@ -20,7 +20,7 @@ License
 -------
 The MIT License (Expat). See the [license file](LICENSE) for details.
 
-[BUILD BADGE]:https://travis-ci.org/radioactivehamster/json-file.svg?branch=master
-[BUILD PAGE]: https://travis-ci.org/radioactivehamster/json-file
-[LICENSE BADGE]: https://img.shields.io/github/license/radioactivehamster/json-file.svg
-[LICENSE PAGE]: https://github.com/radioactivehamster/json-file/blob/master/LICENSE
+[BUILD BADGE]:https://travis-ci.org/radioactivehamster/json.svg?branch=master
+[BUILD PAGE]: https://travis-ci.org/radioactivehamster/json
+[LICENSE BADGE]: https://img.shields.io/github/license/radioactivehamster/json.svg
+[LICENSE PAGE]: https://github.com/radioactivehamster/json/blob/master/LICENSE
