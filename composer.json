@@ -21,6 +21,11 @@
     },
     "require-dev": {
         "phpspec/phpspec": "^2.4",
-        "symfony/var-dumper": "^3.0"
+        "symfony/var-dumper": "^3.0",
+        "fabpot/php-cs-fixer": "^1.11"
+    },
+    "scripts": {
+        "fix": "vendor/bin/php-cs-fixer fix",
+        "test": "vendor/bin/phpspec run"
     }
 }
