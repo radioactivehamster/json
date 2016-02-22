@@ -1,5 +1,5 @@
-json-file
-=========
+JSON
+====
 > A PHP Helper class for reading and writing JSON files.
 
 [![GitHub license][LICENSE BADGE]][LICENSE PAGE] [![Build Status][BUILD BADGE]][BUILD PAGE]
