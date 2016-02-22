@@ -19,4 +19,11 @@ class Json
 
         return json_decode($contents);
     }
+
+    public function writeFile($filename, $data)
+    {
+        $json = json_encode($data, JSON_PRETTY_PRINT) . PHP_EOL;
+
+        return (file_put_contents($filename, $json)) ? $json : false;
+    }
 }
