@@ -1,5 +1,5 @@
 formatter.name: pretty
 suites:
-  temporal_suite:
+  radham_suite:
     namespace: RadHam
     psr4_prefix: RadHam

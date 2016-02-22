@@ -1,5 +1,5 @@
 {
-    "name": "radioactivehamster/json-file",
+    "name": "radioactivehamster/json",
     "description": "A PHP Helper class for reading and writing JSON files.",
     "type": "library",
     "license": "MIT",
@@ -16,7 +16,7 @@
             "RadHam\\": "src/"
         }
     },
-    "homepage": "https://github.com/radioactivehamster/json-file",
+    "homepage": "https://github.com/radioactivehamster/json",
     "minimum-stability": "stable",
     "require": {
         "php": "~5.5|~7.0",

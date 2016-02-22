@@ -39,9 +39,18 @@ class JsonSpec extends ObjectBehavior
         }
 
         $this::writeFile($filename, $object)->shouldBeLike($control);
+    }
+
+    function letGo()
+    {
+        $dir      = __DIR__ . '/data/.tmp';
+        $filename = "{$dir}/my-hello-world.json";
 
         if (file_exists($filename)) {
             unlink($filename);
+        }
+
+        if (file_exists($dir)) {
             rmdir($dir);
         }
     }
