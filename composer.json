@@ -1,0 +1,25 @@
+{
+    "name": "radioactivehamster/json-file",
+    "description": "A PHP Helper class for reading and writing JSON files.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Benner",
+            "email": "james.benner@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RadHam\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~5.4|~5.5|~7.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.4"
+    }
+}
