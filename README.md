@@ -4,6 +4,13 @@ JSON
 
 [![Packagist Version][PACKAGIST VERSION BADGE]][PACKAGIST PAGE] [![GitHub license][LICENSE BADGE]][LICENSE PAGE] [![Build Status][BUILD BADGE]][BUILD PAGE]
 
+Install
+-------
+
+```sh
+$ composer require radioactivehamster/json
+```
+
 Usage
 -----
 
