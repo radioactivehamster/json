@@ -12,6 +12,7 @@ class Json
      *
      * @param string $filename
      * @return mixed
+     * @throws RuntimeException
      */
     public function parseFile($filename)
     {
