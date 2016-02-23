@@ -14,6 +14,8 @@ use RadHam\Json;
 
 $file = 'hello-world.json';
 $json = Json::parseFile($file);
+
+Json::writeFile('my-hello-world.json', $json);
 ```
 
 License

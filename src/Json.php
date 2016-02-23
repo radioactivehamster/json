@@ -7,6 +7,12 @@ use SplFileInfo;
 
 class Json
 {
+    /**
+     * Parse a JSON file into an object or array.
+     *
+     * @param string $filename
+     * @return mixed
+     */
     public function parseFile($filename)
     {
         $file = new SplFileInfo($filename);
@@ -20,6 +26,13 @@ class Json
         return json_decode($contents);
     }
 
+    /**
+     * Write an object or array into a new JSON file.
+     *
+     * @param string $filename
+     * @param mixed $data
+     * @return bool|string
+     */
     public function writeFile($filename, $data)
     {
         $json = json_encode($data, JSON_PRETTY_PRINT) . PHP_EOL;
