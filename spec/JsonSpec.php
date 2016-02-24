@@ -14,8 +14,8 @@ class JsonSpec extends ObjectBehavior
 
     function it_should_parse_a_json_file()
     {
-        $control     = (object) ['hello' => 'world'];
-        $filename    = __DIR__ . '/data/hello-world.json';
+        $control  = (object) ['hello' => 'world'];
+        $filename = __DIR__ . '/data/hello-world.json';
 
         $this::parseFile($filename)->shouldBeLike($control);
     }
